@@ -1,0 +1,27 @@
+.header {
+  border-bottom: 1px solid #000;
+  padding: 16px 0;
+  margin-bottom: 16px;
+}
+
+.header-logo {
+  font-weight: 700;
+  color: #5A5F63;
+
+  span {
+    color: #F87C00;
+  }
+}
+
+.header-text {
+  font-weight: 500;
+  font-size: 24px;
+
+  span {
+    font-weight: 300;
+
+    strong {
+      font-weight: 800;
+    }
+  }
+}

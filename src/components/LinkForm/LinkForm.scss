@@ -1,0 +1,31 @@
+.linkForm {
+  width: 350px;
+  margin: 0 auto;
+}
+
+.back {
+  color: #000;
+  font-weight: 700;
+  font-size: 12px;
+  display: block;
+  margin-bottom: 40px;
+}
+
+.add-wrapper {
+  text-align: right;
+}
+
+.add {
+  width: 100px;
+  display: inline-block;
+}
+
+.toast {
+  background-color: #ddfad3;
+  border: 1px solid #3ba41f;
+  color: #3ba41f;
+  position: absolute;
+  width: 100%;
+  z-index: 99;
+  pointer-events: none;
+}

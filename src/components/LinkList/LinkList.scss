@@ -1,0 +1,105 @@
+.linkList {
+  width: 350px;
+  margin: 0 auto;
+}
+
+.linkList-content {
+  border-top: 3px solid #ececec;
+  padding: 10px 7px;
+}
+
+.addLink {
+  background-color: #f7f7f7;
+  padding: 5px 5px 5px 85px;
+  border-radius: 5px;
+  border: 1px solid #eaeaea;
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 80px;
+  margin: 0 10px 15px;
+  box-sizing: content-box;
+
+  &::before {
+    content: "+";
+    border: 1px solid #979797;
+    border-radius: 5px;
+    font-size: 60px;
+    font-weight: 600;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ececec;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+  }
+}
+
+.pagination-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.page-item {
+  cursor: pointer;
+
+  &.active, &.disabled {
+    cursor: text;
+  }
+
+  &.active {
+    .page-link {
+      background-color: #343a40;
+      border-color: #343a40;
+    }
+  }
+}
+
+.select-wrapper {
+  margin: 0 8px 8px;
+  width: 70%;
+}
+
+.toast {
+  background-color: #ddfad3;
+  border: 1px solid #3ba41f;
+  color: #3ba41f;
+  position: absolute;
+  width: 100%;
+  z-index: 99;
+  pointer-events: none;
+}
+
+.modal-text1 {
+  text-align: center;
+  color: #8e8e8e;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.modal-text2 {
+  text-align: center;
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.modal-buttons {
+  margin-top: 30px;
+  text-align: center;
+
+  button {
+    width: 120px;
+    text-align: center;
+    margin: 0 20px;
+  }
+}
